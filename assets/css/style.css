@@ -17,7 +17,39 @@ nav .navbar{
     padding-top: 15px;
     padding-bottom: 10px;
 }
-.win-loss-box, .number-displays, .crystal-box{
+.win-loss-box, .number-displays, .crystal-container{
     background-color: #fff;
     font-size: 20pt;
+}
+
+.number-displays{
+    font-size: 28pt;
+}
+
+.result-display{
+    font-size: 36pt;
+}
+
+.result-display .winner{
+    background-color: #7cfc00;
+}
+
+.result-display .loser{
+    background-color:#f00;
+}
+
+.play-again-button:hover{
+    text-decoration: underline;
+}
+.crystal-box{
+    text-align: center;
+}
+
+.crystal-image{
+    height:150px;
+    width:20%;
+}
+
+.crystal-image:hover{
+    cursor: pointer;
 }
