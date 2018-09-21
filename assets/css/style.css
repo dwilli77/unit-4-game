@@ -1,0 +1,23 @@
+html body{
+    background-image: url("../images/backdrop-background-orange-132197.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav .navbar{
+    position:fixed;
+}
+
+.jumbotron{
+    background-color: #f5fffa;
+    margin-top: 80px;
+}
+
+.container{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.win-loss-box, .number-displays, .crystal-box{
+    background-color: #fff;
+    font-size: 20pt;
+}
