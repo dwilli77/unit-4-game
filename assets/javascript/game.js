@@ -49,7 +49,7 @@ const reset = function() {
     userScore = 0;
     $('.your-total').text(userScore);
     $('.results-box').addClass('d-none');
-    $('.result-display').removeClass('winner', 'loser');
+    $('.result-display').removeClass('winner loser');
     randomizeCrystalValues();
 }
 
