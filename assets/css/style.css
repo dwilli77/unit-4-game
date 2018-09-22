@@ -30,11 +30,11 @@ nav .navbar{
     font-size: 36pt;
 }
 
-.result-display .winner{
+.winner{
     background-color: #7cfc00;
 }
 
-.result-display .loser{
+.loser{
     background-color:#f00;
 }
 
@@ -52,4 +52,22 @@ nav .navbar{
 
 .crystal-image:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 678px) {
+    .win-loss-box, .number-displays, .crystal-container{
+        font-size: 14pt;
+    }
+
+    .number-displays{
+        font-size: 18pt;
+    }
+
+    .result-display{
+        font-size: 24pt;
+    }
+
+    .crystal-image{
+        height: 90px;
+    }
 }
