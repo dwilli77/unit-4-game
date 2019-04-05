@@ -4,7 +4,7 @@ deployed here [https://dwilli77.github.io/unit-4-game/](https://dwilli77.github.
 
 ***
 
-*This is my daughter's favorite game!*
+**_This is my daughter's favorite game!_**
 
 In this game, your objective is to reach the 'target number'.
 
@@ -15,3 +15,5 @@ BE CAREFUL: if you go over the target, you lose!
 ___
 
 This game uses jQuery and Bootstrap
+
+![screenshot](./screenshot.PNG "Crystal Collector")
